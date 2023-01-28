@@ -9,5 +9,8 @@ for (let pilot of weatherLondon.weather[0].pilotAffected) {
         pilotAffected.push(pilot);
     }
 }
-console.log(pilotAffected[0].name);
-console.log(pilotAffected[0].age);
+
+for (var i=0; i < pilotAffected.length; i++){
+    console.log(pilotAffected[i].name);
+    console.log(pilotAffected[i].age);
+}
